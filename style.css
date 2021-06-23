@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: row wrap;
+    margin: 30px 30px;
+    padding: 30px 0;
+    width: 95%;
+}
+
+h1 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 2.1em;
+    margin:0;
+    padding:0;
+}
+
+img {
+    width: 100%;
+}
+
+figure  {
+    margin: 0;
+    width: 25%;
+}
+
+#row-1 {
+    background-color: #000033;
+}
+
+#row-2 {
+    background-color: #0000cc;
+}
+
+#row-3 {
+    background-color: white;
+    padding: 0;
+    justify-content: center;
+}
+
+#row-3 figure {
+    height: 100%;
+    width: 33%;
+}
+
+
